@@ -1,0 +1,28 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install)",
+      "Bash(npm run build:*)",
+      "Bash(npm install:*)",
+      "Bash(npm run serve)",
+      "Bash(find:*)",
+      "Bash(npm run lint:*)",
+      "Bash(node:*)",
+      "Bash(npx vue-tsc:*)",
+      "Bash(done:*)",
+      "Bash(if:*)",
+      "Bash(then grep -n \"Toast\" \"E:\\code\\platform\\xizhao-web-designer-h5-flatform\\src\\views\\popup\\PersonalProjectPanel.vue\")",
+      "Bash(else echo \"File not found\")",
+      "Bash(fi:*)",
+      "Bash(then grep -n \"Toast\" \"E:\\code\\platform\\xizhao-web-designer-h5-flatform\\src\\views\\Newsection\\RetrievePassword.vue\")",
+      "Bash(for file in \"E:\\code\\platform\\xizhao-web-designer-h5-flatform\\src\\views\\activity\\activity_Lightup.vue\" \"E:\\code\\platform\\xizhao-web-designer-h5-flatform\\src\\views\\activity\\wbsuccess.vue\")",
+      "Bash(do echo \"=== $file ===\")",
+      "Bash(then grep -n \"Toast\" \"$file\")",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
